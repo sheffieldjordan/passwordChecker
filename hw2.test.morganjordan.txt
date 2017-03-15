@@ -1,0 +1,7 @@
+Morgan S. Jordan
+INFO 206
+September 12, 2016
+Homework 2
+       I tested the program by satisfying none of the conditions and introducing the conditions one by one. One of the difficult parts was “saving” the Boolean values as each condition was met, and then adding up the Boolean values. I also tested some common passwords in all uppercases to ensure the program met that condition.
+       To test the binary search password check, I selected the password at line 5000 (‘jonny’), and found that the total_checks variable returned 1, meaning it was working. Testing the password at line 7500 (‘renegade’) returned value 2, which is what I expected. Worst case, the program will have to run the search 14 times or O(log(n)). O(log(n) describes the relationships between the number of items to search through, and the number of times you may have to conduct the binary search. Best case, it runs only once, O(1).  
+
